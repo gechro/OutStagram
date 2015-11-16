@@ -1,1 +1,8 @@
-<h1>Feed</h1>
+
+<% @posts.each do |post| %>
+  <div class="post_wrapper">
+    <h3><%= link_to 'post.user_id', posts_path %></h3>
+    <%= image_tag(post.image, {:size => "460x460"}) %><br>
+    <p class="caption"><%= post.caption %></p><br>
+  </div>
+<% end %>

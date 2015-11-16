@@ -1,3 +1,36 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+img {
+  height: 100vw;
+  width:  100vw;
+  max-width: 640px;
+  max-height: 640px;
+  margin: 0 auto;
+  display: block;
+}
+
+#form_wrapper {
+  width: 60%;
+  padding: 5% 5% 5% 30%;
+  border: 2px solid #eeefef;
+  border-radius: 3px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.post_wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: left;
+  color: steelblue;
+  max-width: 640px;
+  padding: 0;
+}
+
+.caption {
+  color: black;
+  font-weight: bolder;
+
+}

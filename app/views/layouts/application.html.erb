@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>OutStagram</title>
+  <title>Outstagram</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href='https://fonts.googleapis.com/css?family=Oleo+Script:400,700|Roboto:400,700,900,300' rel='stylesheet' type='text/css'>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <header>
+      <h1><%= link_to 'Outstagram', posts_path %></h1>
+  </header>
 <%= yield %>
+
+
 
 </body>
 </html>

@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+header {
+  font-family:'Oleo Script', cursive;
+}
+
+a {
+  text-decoration: none;
+}
